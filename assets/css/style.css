@@ -27,7 +27,7 @@ footer {
         list-style-type: none;
       display: flex;
       margin-left: auto;
-    margin-right: auto;}
+      margin-right: auto;}
 
    
 
@@ -35,7 +35,6 @@ footer {
 #box {
     width: 900px;
     float: right;
-   position: fixed;
     color: white;
 }
 
@@ -46,7 +45,7 @@ footer {
     margin: 10px auto;
     text-align: center;
     color:red;
-    position: fixed;
+    
 
 }
 
@@ -182,7 +181,42 @@ footer {
 
 
 @media only screen and (max-width:768px){
-    
+    .first-text {
+        padding-top: 300px;
+        background: none;
+        color:black;
+        text-align: left;
+        padding-left: 1rem;
+        
+    }
+    nav {
+        position: fixed;
+        color:black;
+        z-index: 1;
+    }
+
+    .menu {
+        padding-top:300px;
+        background: none;
+        color:black;
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .drinks {
+        padding-top: 200px;
+        background: orange;
+        color: black;
+        text-align: left;
+        padding-left: 1rem;
+    }
+    .contact {
+        padding-top: 200px;
+        background: none;
+        color:black;
+        text-align: left;
+        padding-left: 1rem;
+    }
   }
 
 
