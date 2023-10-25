@@ -32,20 +32,20 @@ footer {
    
 
 
-
-.box  {
+.box {
     width: 900px;
     float: right;
-    border: 1px solid red;
+   
     color: white;
 }
+
 
 .box ul li {
     width: 120px;
     float: left;
     margin: 10px auto;
     text-align: center;
-    color: red;
+    color:red;
 
 }
 
@@ -109,7 +109,7 @@ footer {
 .style {
     width: 900px;
     float: right;
-    border: 1px solid red;
+   
     color:red;
 }
 
@@ -135,7 +135,7 @@ footer {
 .con {
     width: 900px;
     float: right;
-    border: 1px solid red;
+   
     color:red;
 }
 
@@ -179,13 +179,3 @@ footer {
     color: red;
 }
 
-
-@media screen and (min-width :768px)
-
-    
-
-/* Media query: laptops and screens from 992px and larger */
-@media screen and (min-width: 992px)
-
-body {width:fit-content;
-   }
