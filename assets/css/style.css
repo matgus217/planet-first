@@ -190,7 +190,11 @@ footer {
         padding-left: 3rem;
         text-align: left;
     }
-
+  nav {color: black;
+    text-align: left;
+    display: inline;
+    padding-left: 1rem;
+    text-decoration: none;}
    #box  {
     width:250px;
     
