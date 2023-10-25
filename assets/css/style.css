@@ -35,7 +35,7 @@ footer {
 #box {
     width: 900px;
     float: right;
-   
+   position: fixed;
     color: white;
 }
 
@@ -197,6 +197,7 @@ footer {
     text-decoration: none;}
    #box  {
     width:250px;
+    position: fixed;
     
    } 
   #box ul li a {
@@ -205,6 +206,7 @@ footer {
     display: inline;
     padding-left: 1rem;
     text-decoration: none;
+    
     
     
    }
