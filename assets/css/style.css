@@ -198,8 +198,10 @@ footer {
   .box ul li a {
     color:black;
     text-align:left;
-    display: flex;
+    display: inline;
     padding-left: 1rem;
+    text-decoration: none;
+    
     
    }
   footer {
@@ -207,13 +209,15 @@ footer {
     heigth:100px;
   }
 
-  .menu {width: 265px;
-    height: 275px;
+  .menu {width: 200px;
+    height: 100px;
     background: none;
     color: black;
     min-width: auto;
+    min-height: min-content;
     padding-left: 1rem;
     text-align: left;
+    padding-bottom: 1rem;
     
   }
   .drinks {
@@ -225,15 +229,7 @@ footer {
         padding-left: 0,1rem;
         text-align: left;
   }
-  .box ul li a {
-      color: black;
-      text-align: left;
-      display: flex;
-      padding-left: 1rem;
-
-  }
-
-  .contact {
+   .contact {
     width: 265px;
         height: 275px;
         background: none;
@@ -242,8 +238,17 @@ footer {
         padding-left: 0, 1rem;
         text-align: left;
     }
+
+    .style ul li a {
+        color: black;
+            text-align: left;
+            display: inline;
+            padding-left: 1rem;
+            text-decoration: none;
+
+    }
   }
-}
+
 
 
 
