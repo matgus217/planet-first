@@ -46,6 +46,7 @@ footer {
     margin: 10px auto;
     text-align: center;
     color:red;
+    position: fixed;
 
 }
 
@@ -189,12 +190,15 @@ footer {
         min-width: auto;
         padding-left: 3rem;
         text-align: left;
+        padding-top: 300px;
     }
   nav {color: black;
     text-align: left;
     display: inline;
     padding-left: 1rem;
-    text-decoration: none;}
+    text-decoration: none;
+    position: fixed;
+    z-index: 1;}
    #box  {
     width:250px;
     position: fixed;
@@ -206,7 +210,7 @@ footer {
     display: inline;
     padding-left: 1rem;
     text-decoration: none;
-    
+
     
     
    }
