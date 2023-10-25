@@ -2,7 +2,14 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 
+html,
 body {
+    height: 100%;
+    margin: 0;
+}
+
+
+body { 
     font-family:'Playpen Sans',cursive;
     color: white;
     background: url("../css/img/food.jpg") no-repeat center center/cover;
@@ -11,19 +18,20 @@ body {
 
 footer {
     background-color: red;
-    position:inherit;
+    clear: both;
+        position: relative;
         height: 100px;
-        width: 100px;
-        border: 100px;
-        border-radius: 15px;
+        margin-top: 310px;
+       opacity: .8;
+       justify-content: space-evenly;
+        list-style-type: none;
+      display: flex;
+      margin-left: auto;
+    margin-right: auto;}
 
-}
+   
 
-.social ul li a {
-    color:white;
-    position: inherit;
-    text-align: center;
-}
+
 
 .box {
     width: 900px;
@@ -52,11 +60,12 @@ footer {
 
 .first-text {
     width: 300px;
-    height: 400px;
+    height: 300px;
     background-color: red;
     opacity: 0, 9;
     padding: 55px;
     border-radius: 15px;
+    opacity: .8;
 }
 
 .first-text h1 {
@@ -71,22 +80,30 @@ footer {
 }
 
 .menu {
-    margin:1em;
-    padding:1rem;
-    color:red;
-
-
-}
-
-.dricks {
+    width: 200px;
+        height: 300px;
+        background-color: red;
+        opacity: 0, 9;
+        padding: 50px;
+        border-radius: 20px;
+        opacity: .8;
     
-    float:right;
-    box-sizing: border-box;
-    color:red;
-    z-index: 90px;
+
 
 }
 
+.drinks { color:white;
+    width: 200px;
+        height: 300px;
+        background-color: red;
+        opacity: 0, 9;
+        padding: 50px;
+        border-radius: 20px;
+        opacity: .8;
+    
+    
+}
+ 
 
 .style {
     width: 900px;
@@ -145,6 +162,7 @@ footer {
     opacity: 0, 9;
     padding: 50px;
     border-radius: 15px;
+    opacity: .8;
 }
 
 .contact h1 {
