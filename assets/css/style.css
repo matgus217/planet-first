@@ -17,7 +17,7 @@ body {
 }
 
 footer {
-    background-color: red;
+    background-color:red;
     clear: both;
         position: relative;
         height: 100px;
@@ -33,10 +33,10 @@ footer {
 
 
 
-.box {
+.box  {
     width: 900px;
     float: right;
-    border: 1px solid black;
+    border: 1px solid red;
     color: white;
 }
 
@@ -52,6 +52,7 @@ footer {
 .box ul li a {
     text-decoration: none;
     color: red;
+    
 }
 
 .box ul li:hover {
@@ -61,7 +62,7 @@ footer {
 .first-text {
     width: 300px;
     height: 300px;
-    background-color: red;
+    background-color:red;
     opacity: 0, 9;
     padding: 55px;
     border-radius: 15px;
@@ -80,11 +81,11 @@ footer {
 }
 
 .menu {
-    width: 200px;
-        height: 300px;
-        background-color: red;
+    width: 259px;
+        height: 350px;
+        background-color: green;
         opacity: 0, 9;
-        padding: 50px;
+        padding: 40px;
         border-radius: 20px;
         opacity: .8;
     
@@ -95,7 +96,7 @@ footer {
 .drinks { color:white;
     width: 200px;
         height: 300px;
-        background-color: red;
+        background-color: green;
         opacity: 0, 9;
         padding: 50px;
         border-radius: 20px;
@@ -108,8 +109,8 @@ footer {
 .style {
     width: 900px;
     float: right;
-    border: 1px solid black;
-
+    border: 1px solid red;
+    color:red;
 }
 
 .style ul li {
@@ -134,7 +135,8 @@ footer {
 .con {
     width: 900px;
     float: right;
-    border: 1px solid black;
+    border: 1px solid red;
+    color:red;
 }
 
 .con ul li {
@@ -152,7 +154,7 @@ footer {
 }
 
 .con ul li:hover {
-    background-color: white;
+    background-color:white;
 }
 
 .contact {
