@@ -32,7 +32,7 @@ footer {
    
 
 
-.box {
+#box {
     width: 900px;
     float: right;
    
@@ -40,7 +40,7 @@ footer {
 }
 
 
-.box ul li {
+#box ul li {
     width: 120px;
     float: left;
     margin: 10px auto;
@@ -49,13 +49,13 @@ footer {
 
 }
 
-.box ul li a {
+#box ul li a {
     text-decoration: none;
     color: red;
     
 }
 
-.box ul li:hover {
+#box ul li:hover {
     background-color: white;
 }
 
@@ -191,11 +191,11 @@ footer {
         text-align: left;
     }
 
-   .box  {
+   #box  {
     width:250px;
     
    } 
-  .box ul li a {
+  #box ul li a {
     color:black;
     text-align:left;
     display: inline;
