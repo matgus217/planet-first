@@ -5,6 +5,156 @@
 body {
     font-family:'Playpen Sans',cursive;
     color: white;
-    background: url("..assets/css/img/food.jpg") no-repeat;
-    background-size:inherit;
+    background: url("../css/img/food.jpg") no-repeat center center/cover;
+    
+}
+
+footer {
+    background-color: red;
+    position:inherit;
+        height: 100px;
+        width: 100px;
+        border: 100px;
+        border-radius: 15px;
+
+}
+
+.social ul li a {
+    color:white;
+    position: inherit;
+    text-align: center;
+}
+
+.box {
+    width: 900px;
+    float: right;
+    border: 1px solid black;
+    color: white;
+}
+
+.box ul li {
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    color: red;
+
+}
+
+.box ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+.box ul li:hover {
+    background-color: white;
+}
+
+.first-text {
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    opacity: 0, 9;
+    padding: 55px;
+    border-radius: 15px;
+}
+
+.first-text h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.first-text h4 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.menu {
+    margin:1em;
+    padding:1rem;
+    color:red;
+
+
+}
+
+.dricks {
+    
+    float:right;
+    box-sizing: border-box;
+    color:red;
+    z-index: 90px;
+
+}
+
+
+.style {
+    width: 900px;
+    float: right;
+    border: 1px solid black;
+
+}
+
+.style ul li {
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+.style ul li a {
+    text-decoration: none;
+    color: red;
+
+}
+
+.style ul li:hover {
+    background-color: white;
+}
+
+
+.con {
+    width: 900px;
+    float: right;
+    border: 1px solid black;
+}
+
+.con ul li {
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+.con ul li a {
+    text-decoration: none;
+    color: red;
+
+}
+
+.con ul li:hover {
+    background-color: white;
+}
+
+.contact {
+    width: 300px;
+    height: 539px;
+    background-color: red;
+    opacity: 0, 9;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.contact h4 {
+    text-align: center;
+}
+
+.reservation {
+    color: red;
 }
