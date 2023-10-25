@@ -232,6 +232,17 @@ footer {
       padding-left: 1rem;
 
   }
+
+  .contact {
+    width: 265px;
+        height: 275px;
+        background: none;
+        color: black;
+        min-width: auto;
+        padding-left: 0, 1rem;
+        text-align: left;
+    }
+  }
 }
 
 
