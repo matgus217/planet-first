@@ -201,13 +201,36 @@ footer {
     display: flex;
     padding-left: 1rem;
     
-   
-    
-    
-  }
+   }
   footer {
     width:auto;
     heigth:100px;
+  }
+
+  .menu {width: 265px;
+    height: 275px;
+    background: none;
+    color: black;
+    min-width: auto;
+    padding-left: 1rem;
+    text-align: left;
+    
+  }
+  .drinks {
+    width: 265px;
+        height: 275px;
+        background: none;
+        color: black;
+        min-width: auto;
+        padding-left: 0,1rem;
+        text-align: left;
+  }
+  .box ul li a {
+      color: black;
+      text-align: left;
+      display: flex;
+      padding-left: 1rem;
+
   }
 }
 
