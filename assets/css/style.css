@@ -186,3 +186,6 @@ footer {
 
 /* Media query: laptops and screens from 992px and larger */
 @media screen and (min-width: 992px)
+
+body {width:fit-content;
+   }
