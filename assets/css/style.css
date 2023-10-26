@@ -36,6 +36,8 @@ footer {
     width: 900px;
     float: right;
     color: white;
+    position: relative;
+    top:-175px;
 }
 
 
@@ -67,6 +69,7 @@ footer {
     padding: 55px;
     border-radius: 15px;
     opacity: .8;
+    margin-top: 200px;
 }
 
 .first-text h1 {
