@@ -37,6 +37,7 @@ footer {
     float: right;
     color: white;
     position: relative;
+    margin-right: 200px;
 
 }
 
@@ -189,12 +190,9 @@ footer {
 
 #logo {
     color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-decoration: none;
-        margin: 100px;
-        padding:100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
-
 
 
 
@@ -257,7 +255,7 @@ footer {
         float: right;
         color: black;
         position: absolute;
-        margin-left: 530px;
+        margin-left: 200px;
 
 
     }
