@@ -196,18 +196,19 @@ footer {
 }
 
 #logo {
-    color:white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    text
+
 }
+
 /* media queries*/
 
 @media screen and (max-width: 768px) {
 
-   body {background: url("../css/img/pexels-aleksandar-pasaric-2907456.jpg")
-
-} 
+    body {
+        background: url("../css/img/pexels-aleksandar-pasaric-2907456.jpg")
+    }
 
     .first-text {
         width: 175px;
@@ -264,3 +265,10 @@ footer {
 
 
     }
+
+    #logo {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+    }
+}
