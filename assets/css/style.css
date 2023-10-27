@@ -33,7 +33,7 @@ footer {
 
 
 #box {
-    width: 100px;
+
     float: right;
     color: white;
     position: relative;
@@ -42,11 +42,11 @@ footer {
 
 
 #box ul li {
-    width: 500px;
+    width: 200px;
     float: right;
     color: orange;
     position: relative;
-    top: -175px;
+
 
 
 }
@@ -57,9 +57,6 @@ footer {
 
 }
 
-#box ul li:hover {
-    background-color: white;
-}
 
 .first-text {
     width: 300px;
@@ -191,16 +188,15 @@ footer {
     text-align: center;
 }
 
-.reservation {
-    color: red;
-}
-
 #logo {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        margin: 100px;
 }
+
+
+
 
 /* media queries*/
 
@@ -266,9 +262,5 @@ footer {
 
     }
 
-    #logo {
-        color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-decoration: none;
-    }
+
 }
