@@ -2,8 +2,7 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 
-html,
-body {}
+
 
 
 body {
@@ -19,7 +18,7 @@ body {
 
 footer {
     background-color: orange;
-    positin: relative;
+    position: relative;
     opacity: .8;
     justify-content: space-evenly;
     list-style-type: none;
@@ -201,9 +200,9 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-    body {
-        background: url("../css/img/pexels-karolina-grabowska-7185806.jpg")
-    }
+   body {background: url("../css/img/pexels-aleksandar-pasaric-2907456.jpg")
+
+} 
 
     .first-text {
         width: 175px;
@@ -211,7 +210,7 @@ footer {
         opacity: 0, 9;
         border-radius: 15px;
         opacity: .8;
-        color: red;
+        color: black;
         background-color: transparent;
         margin-left: auto;
         margin-right: auto;
@@ -241,7 +240,7 @@ footer {
         text-align: left;
         margin-right: -10px;
         margin-left: auto;
-        margin:10px;
+        margin: 10px;
     }
 
     .contact {
