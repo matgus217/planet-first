@@ -144,7 +144,6 @@ footer {
 .con {
     width: 900px;
     float: right;
-
     color: black;
 }
 
@@ -193,6 +192,7 @@ footer {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-decoration: none;
         margin: 100px;
+        padding:100px;
 }
 
 
