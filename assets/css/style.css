@@ -195,7 +195,12 @@ footer {
     color: red;
 }
 
-
+#logo {
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text
+}
 /* media queries*/
 
 @media screen and (max-width: 768px) {
