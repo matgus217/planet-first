@@ -8,7 +8,7 @@
 body {
     font-family: 'Playpen Sans', cursive;
     color: white;
-    background: url("../css/img/food.2jpg.jpg") no-repeat center center/cover;
+    background: url("../css/img/pexels-aleksandar-pasaric-2907456.jpg") no-repeat center center/cover;
     width: 100%;
     font-size: large;
     height: 100%;
@@ -19,7 +19,7 @@ body {
 footer {
     background-color: orange;
     position: relative;
-    opacity: .8;
+
     justify-content: space-evenly;
     list-style-type: none;
     display: flex;
@@ -37,7 +37,14 @@ footer {
     float: right;
     color: white;
     position: relative;
-    margin-right: 200px;
+    margin-right: -500px;
+    background-color: orange;
+    border-radius: .8;
+    opacity: 15px;
+    margin: -60px;
+    margin-top: 50px;
+    border-radius: 16px;
+
 
 }
 
@@ -47,7 +54,8 @@ footer {
     float: right;
     color: orange;
     position: relative;
-
+    border-radius: .8;
+    opacity: 15px;
 
 
 }
@@ -55,7 +63,8 @@ footer {
 #box ul li a {
     text-decoration: none;
     color: green;
-
+    border-radius: .8;
+    opacity: 15px;
 }
 
 
@@ -189,11 +198,23 @@ footer {
 }
 
 #logo {
-    color: white;
+    color: green;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
 
+header {
+
+    background-color: orange;
+    width: 150px;
+    border-radius: 15px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: green;
+}
 
 
 /* media queries*/
