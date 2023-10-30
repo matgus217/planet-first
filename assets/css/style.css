@@ -19,7 +19,6 @@ body {
 footer {
     background-color: orange;
     position: relative;
-
     justify-content: space-evenly;
     list-style-type: none;
     display: flex;
@@ -39,7 +38,6 @@ footer {
     position: relative;
     margin-right: -500px;
     background-color: orange;
-    border-radius: .8;
     opacity: 15;
     margin: -60px;
     margin-top: 50px;
@@ -54,7 +52,7 @@ footer {
     float: right;
     color: orange;
     position: relative;
-    border-radius: .8;
+    border-radius: 15px;
     opacity: 15;
 
 
@@ -63,7 +61,7 @@ footer {
 #box ul li a {
     text-decoration: none;
     color: green;
-    border-radius: .8;
+    border-radius: 15px;
     opacity: 15;
 }
 
